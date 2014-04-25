@@ -1,0 +1,222 @@
+body{
+    background-image:url("../images/tweed.png");
+    font-family:arial;
+}
+
+#container{
+   display: table;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    background-color:#EFEFEF;
+}
+
+#header {
+    height: 160px;
+}
+
+#header #top{
+    height: 95px;
+    padding: 8px;
+}
+
+#header #logo{
+    width:170px;
+    float:left;
+}
+
+#header #nav{
+    background: #ff4444; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNDQ0NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjOTIwMjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ff4444 0%, #c92020 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff4444), color-stop(100%,#c92020)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff4444 0%,#c92020 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff4444 0%,#c92020 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff4444 0%,#c92020 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff4444 0%,#c92020 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4444', endColorstr='#c92020',GradientType=0 ); /* IE6-8 */
+
+    height: 60px;
+}
+
+#header #nav ul{
+    list-style: none outside none;
+    margin-left:8px;
+}
+
+#header #nav li{
+    float:left;
+}
+
+#header #nav li a{
+    background-color: #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    float: left;
+    height: 35px;
+    margin-right: 8px;
+    margin-top: 5px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+    color:black;
+}
+
+#header #nav li a:hover{
+    background-color:#DFDFDF;    
+}
+
+#header #right_group{
+    float:right;
+}
+
+#header #menu_username{
+    cursor:pointer;
+}
+
+#content{
+    display: table;
+    padding: 10px;
+    position: relative;
+    width: 960px;
+    padding-bottom:30px;
+}
+
+.delete_user,.delete_report,.delete_admin,.add_new{
+    cursor:pointer;
+}
+
+table{
+    margin-top:10px;
+}
+
+.text_box{
+    border: 1px solid #990101;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 8px;
+    padding: 4px;
+    width: 200px;
+    height:20px;
+    font-family:arial;
+    font-size:15px;
+}
+
+.button{
+    background-color:white;
+    border: medium none;
+    height: 30px;
+    width: 95px;
+    border: 1px solid #990101;
+    border-radius: 3px 3px 3px 3px;
+    margin-top:8px;
+}
+
+.profile_image{
+    overflow: hidden;
+    width: 90px;
+}
+
+.error{
+    background-color:#990101;
+    padding:10px;
+    border-radius:3px;
+    color:white;
+}
+
+.message{
+    background-color:#01AC1B;
+    padding:10px;
+    border-radius:3px;
+    color:white;
+}
+
+#labels{
+   float: left;
+   width: 125px;
+}
+
+#inputs{
+    float:left;
+}
+
+#labels label{
+    border: 1px solid #990101;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-top: 8px;
+    padding: 4px;
+    width: 90%;
+    background-color:white;
+    font-size:15px;
+}
+
+#inputs #gender_container{
+    background-color: #FFFFFF;
+    border: 1px solid #990101;
+    border-radius: 3px 3px 3px 3px;
+    height: 20px;
+    margin-top: 7px;
+    padding: 4px;
+    width: 200px;
+}
+
+#inputs #profile_image{
+    background-color: #FFFFFF;
+    border: 1px solid #990101;
+    border-radius: 3px 3px 3px 3px;
+    height: 120px;
+    margin-top: 7px;
+    padding: 4px;
+    width: 200px;
+}
+
+#show_pass{
+    text-decoration:none;
+    color:black;
+    width:100%;
+    float:left;
+    cursor:pointer;
+}
+
+#left{
+    float: left;
+    width: 340px;
+}
+
+#right{
+    float:left;
+    width: 340px;
+}
+
+.admin_table{
+    border:1px solid black;
+    padding:2px;
+}
+
+.admin_table tr,td,th{
+    border:1px solid #990101;
+    padding:2px;
+}
+
+.delete_image{
+    width:20px;
+    float:right;
+}
+
+#admin_login{
+    margin: 150px auto 0;
+    width: 350px;
+}
+
+#admin_login form{
+    margin: 0 auto;
+    width: 210px;
+}
+
+#admin_login h1{
+    text-align:center;    
+}
